@@ -3,7 +3,7 @@ document.querySelector('#calcular2').addEventListener('click', ()=>{
     let r;
     r = n1+(30*(n1/100))
     document.querySelector('#r2').innerHTML =r;
-    document.getElementById('salida').innerHTML='El adicional en total es:';
+    document.getElementById('salida').innerHTML='El Costo en total es:';
 })
 var e = window.onkeydown;
 function Enter() {
@@ -25,7 +25,7 @@ addEventListener("keydown", function(e) {
     let r;
     r = n1+(30*(n1/100))
     document.querySelector('#r2').innerHTML =r;
-    document.getElementById('salida').innerHTML='El adicional en total es:';
+    document.getElementById('salida').innerHTML='El Costo en total es:';
     }
 
 
