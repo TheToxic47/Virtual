@@ -4,6 +4,10 @@ body{
     background-image: url(img/fondo1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+
 }
 
 #r2{
