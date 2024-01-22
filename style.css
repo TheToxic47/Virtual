@@ -1,27 +1,22 @@
 
 
-body{
+body {
+  
     background-image: url(img/fondo1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-
-}
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #6699; 
+    }
 
 #r2{
    font-size: 30px;
 }
-
-
 .card{
     border-style: solid;
    border-color: rgb(250, 250, 250);
 }
-
-
-
 #centaro{
 position: relative;
 }
@@ -30,4 +25,16 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.sub{
+
+	padding:20px;
+    user-select: none;
+	font-size:20px;
+	color:#fff;
+	cursor: default;
+	position: fixed;
+	bottom:20px;
+	right:20px;
 }
