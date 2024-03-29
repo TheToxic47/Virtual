@@ -3,11 +3,11 @@ document.querySelector('#calcular2').addEventListener('click', ()=>{
     if (n1 >= 1000){
     let r;
     let u;
-    r = n1+(150*(n1/1000));   
+    r = n1+(200*(n1/1000));   
     document.querySelector('#r2').innerHTML =r;
     document.getElementById('salida').innerHTML='El Costo en total es:';
 
-    u = 150*(n1/1000);
+    u = 200*(n1/1000);
     document.querySelector('#r3').innerHTML =u;
     document.getElementById('adicional').innerHTML='El Costo del Adicional es:';
 
